@@ -3,7 +3,7 @@ class CreateProduct < ActiveRecord::Migration[5.2]
     create_table :products do |t|
       t.string :name :string
       t.integer :cost
-      
+      t.sting :country_of_orgin
     end
   end
 end
